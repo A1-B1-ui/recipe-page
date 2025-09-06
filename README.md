@@ -6,6 +6,7 @@ A simple and responsive recipe card built with **HTML** and **CSS**.
 This project showcases a clean UI layout with an image, preparation details, ingredients, instructions, and nutrition table.  
 
 ## 🚀 Live Demo
+https://animated-scone-3f5b7a.netlify.app/
 
 ## 📌 Features
 - Fully responsive design (mobile, tablet, desktop)
