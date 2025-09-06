@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: outfit, Young Serif, sans-serif;
+    background-color: #f5e5d9;
+    color: #333;
+    line-height: 1.6rem;
+}
+
+.recipe {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 600px;
+    padding: 40px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
+}
+
+.recipe-img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.recipe-title {
+    color: #333;
+    padding-top: 2px;
+}
+
+.content h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-family: Outfit;
+    font-style: SemiBold;
+    color: rgba(123, 40, 79, 1);
+}
+
+h2 {
+    margin: top 1.2re;
+    font-size: rem;
+    color: #773f28;
+    padding-top: 10px;
+    font-family: young Serif;
+    font-style: variable;
+}
+
+ul,
+ol {
+    margin-left: 1.2rem;
+}
+
+ul {
+    font-family: Outfit;
+    font-style: regular;
+}
+
+ol {
+    font-family: Outfit;
+    font-style: SemiBold;
+}
+
+ol li::marker {
+    color: #7e2a46;
+}
+
+ul li::marker {
+    color: #7a2d47;
+}
+
+.pre-time {
+    background-color: rgba(255, 245, 250, 1);
+    height: 140px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th,
+td {
+    padding: 0.6rem;
+}
+
+table th {
+    text-align: left;
+    font-weight: lighter;
+}
+
+table td {
+    text-align: left;
+    font-weight: bold;
+    color: rgba(123, 40, 79, 1);
+    font-family: Outfit;
+    font-weight: SemiBold;
+}
+
+.recipe-nutrition-row,
+.recipe-list {
+    border-bottom: 1px solid #ddd;
+    padding: 13px;
+}
